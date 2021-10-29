@@ -12,5 +12,5 @@ document.onkeyup = function (e) {
     console.log(e)
     if(e.key === "Escape") {
         nav.classList.remove("open");
-    }
+    };
 }
